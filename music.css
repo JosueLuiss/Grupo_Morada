@@ -1,0 +1,420 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  width: 300px;
+  background-color: #022233;
+  color: aliceblue;
+  margin: 0 auto;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header h1{
+  text-align: center;
+  line-height:16px ;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+header ul{
+  display: flex;
+  font-size: 12px;
+  justify-content: space-between;
+  padding: 15px;
+  font-family: sans-serif;
+  align-items: center;
+}
+
+header li{
+  list-style-type: none;
+  color:azure;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+header li:hover{
+  color: blueviolet;
+  padding: 1px;
+  transition: 0.3s all;
+}
+section .tuor{
+  display: flex;
+}
+
+.capa img{
+  width: 300px;
+  background-color: black;
+}
+
+.tuor1 h1{
+  text-align: center;
+  padding: 10px;
+  color:aliceblue;
+  font-size: 16px;
+}
+
+.tuor1 ul{
+  display: flex;
+  font-size: 12px;
+  align-items: center;
+  width: 100%;
+}
+
+.informações{
+  border: solid 1px rgb(132, 74, 201);
+  border-radius: 10px;
+  margin-top: 20px;
+  height: 80px;
+  padding-top: 8px;
+}
+
+.tuor1 li{
+  list-style-type:none;
+  margin:auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.tuor1 p{
+  font-size: 12px;
+  text-align: center;
+  margin-top: 22px;
+  border-top: 1px solid rgb(132, 74, 201);
+}
+
+.ticket{
+  border: solid 1px rgb(132, 74, 201);
+  padding: 6px;
+  border-radius: 3cm;
+  color: whitesmoke;
+}
+
+.ticket:hover{
+  background-color: rgb(132, 74, 201);
+  transition: 0.3s all;
+  color: black;
+  padding: 8px;
+}
+
+.tuor2 ul{
+  display: flex;
+  font-size: 12px;
+  align-items: center;
+}
+
+.informações2{
+  border: solid 1px rgb(132, 74, 201);
+  border-radius: 10px;
+  margin-top: 20px;
+  height: 80px;
+  padding-top: 8px;
+}
+
+.tuor2 li{
+  list-style-type:none;
+  margin:auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.tuor2 p{
+  font-size: 12px;
+  text-align: center;
+  margin-top: 22px;
+  border-top: 1px solid rgb(132, 74, 201);
+}
+
+.tuor3 ul{
+  display: flex;
+  font-size: 12px;
+  align-items: center;
+}
+
+.informações3{
+  border: solid 1px rgb(132, 74, 201);
+  border-radius: 10px;
+  margin-top: 15px;
+  height: 80px;
+  padding-top: 8px;
+}
+
+.tuor3 li{
+  list-style-type:none;
+  margin:auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.tuor3 p{
+  font-size: 12px;
+  text-align: center;
+  margin-top: 22px;
+  border-top: 1px solid rgb(132, 74, 201);
+}
+
+
+.tuor4 ul{
+  display: flex;
+  font-size: 12px;
+  align-items: center;
+}
+
+.informações4{
+  border: solid 1px rgb(132, 74, 201);
+  border-radius: 10px;
+  margin-top: 20px;
+  height: 80px;
+  padding-top: 8px;
+}
+
+.tuor4 li{
+  list-style-type:none;
+  margin:auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.tuor4 p{
+  font-size: 12px;
+  text-align: center;
+  margin-top: 22px;
+  border-top: 1px solid rgb(132, 74, 201);
+}
+
+
+.tuor5 ul{
+  display: flex;
+  font-size: 12px;
+  align-items: center;
+}
+
+.informações5{
+  border: solid 1px rgb(132, 74, 201);
+  border-radius: 10px;
+  margin-top: 20px;
+  height: 80px;
+  padding-top: 8px;
+}
+
+.tuor5 li{
+  list-style-type:none;
+  margin:auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.tuor5 p{
+  font-size: 12px;
+  text-align: center;
+  margin-top: 22px;
+  border-top: 1px solid rgb(132, 74, 201);
+}
+
+
+.tuor6 ul{
+  display: flex;
+  font-size: 12px;
+  align-items: center;
+}
+
+.informações6{
+  border: solid 1px rgb(132, 74, 201);
+  border-radius: 10px;
+  margin-top: 20px;
+  height: 80px;
+  padding-top: 8px;
+}
+
+.tuor6 li{
+  list-style-type:none;
+  margin:auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.tuor6 p{
+  font-size: 12px;
+  text-align: center;
+  margin-top: 22px;
+  border-top: 1px solid rgb(132, 74, 201);
+}
+
+
+.tuor7 ul{
+  display: flex;
+  font-size: 12px;
+  align-items: center;
+}
+
+.informações7{
+  border: solid 1px rgb(132, 74, 201);
+  border-radius: 10px;
+  margin-top: 20px;
+  height: 80px;
+  padding-top: 8px;
+}
+
+.tuor7 li{
+  list-style-type:none;
+  margin:auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.tuor7 p{
+  font-size: 12px;
+  text-align: center;
+  margin-top: 22px;
+  border-top: 1px solid rgb(132, 74, 201);
+}
+
+
+
+.tuor8 ul{
+  display: flex;
+  font-size: 12px;
+  align-items: center;
+}
+
+.informações8{
+  border: solid 1px rgb(132, 74, 201);
+  border-radius: 10px;
+  margin-top: 20px;
+  height: 80px;
+  padding-top: 8px;
+}
+
+.tuor8 li{
+  list-style-type:none;
+  margin:auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.tuor8 p{
+  font-size: 12px;
+  text-align: center;
+  margin-top: 22px;
+  border-top: 1px solid rgb(132, 74, 201);
+}
+
+
+.tuor9 ul{
+  display: flex;
+  font-size: 12px;
+  align-items: center;
+}
+
+.informações9{
+  border: solid 1px rgb(132, 74, 201);
+  border-radius: 10px;
+  margin-top: 20px;
+  height: 80px;
+  padding-top: 8px;
+}
+
+.tuor9 li{
+  list-style-type:none;
+  margin:auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.tuor9 p{
+  font-size: 12px;
+  text-align: center;
+  margin-top: 22px;
+  border-top: 1px solid rgb(132, 74, 201);
+}
+
+.loja{
+  text-align: center;
+  margin-top: 80px;
+  font-size: 12px;
+}
+
+.loja h3{
+  font-family: sans-serif;
+}
+
+.loja h3:hover{
+  color: blueviolet;
+  transition: 0.3s all;
+  padding: 0.5px;
+}
+
+.loja img{
+  width: 300px;
+}
+
+.loja h4{
+  border: 1px solid rgb(132, 74, 201);
+  border-radius: 0.2cm;
+  width: 160px;
+  padding: 8px;
+  margin: auto;
+  font-size: 10px;
+
+}
+
+.loja h4:hover{
+  background-color: rgb(180, 144, 236);
+  color: black;
+  font-style:oblique;
+  padding: 10px;
+  border: 1px solid black;
+  transition: 0.3s all;
+}
+
+footer{
+  width: 300px;
+  height: 130px;
+  text-align: center;
+  margin-top: 60px;
+  background-color: rgb(26, 24, 63);
+  border-top: 1px solid ;
+  border-radius: 0.5cm ;
+  padding: 10px;
+}
+
+footer h5{
+  font-style: oblique;
+  margin-top: 18px;
+}
+
+footer ul {
+  font-size: 12px;  
+  margin-top: 5px;
+}
+
+#linkdaloja{
+  display: block;
+  margin-top:5px;
+}
+
+footer a:hover{
+  color: blueviolet;
+  padding: 10px;
+}
+
+#sociais{
+  display: none;
+}
+
+.play{
+  display: flex;
+  justify-content: space-around;
+}
+
+.play p{
+  padding: 20px;
+  border: 1px solid blueviolet;
+  border-radius: 1cm;
+  margin: 20px 0;
+}
+
+.play p:hover{
+  color: black;
+  background-color: blueviolet;
+  padding: 22px;
+  font-size: 18px;
+}
+
