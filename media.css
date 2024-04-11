@@ -4,199 +4,81 @@
     box-sizing: border-box;
 }
 
-@media screen and (min-width:700px){
-    body{
-      width: 700px;
-      margin: 10px auto;
-      padding: 10px;
-    }
+@media screen and (min-width:1024px){
+
+  header{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+  }
+
+  header li{
+    margin: 0 30px;
+    font-size: 18px;
+  }
+
+  .play{
+    display: flex;
+    margin: 5% 25%;
+  }
   
-    header{
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      border: 1px solid white;
-      height: 120px;
-      border-left: none;
-      border-right: none;
-    }
-  
-    header li{
-      margin: 15px;
-      font-size: 18px;
-      font-family:fantasy;
-    }
-  
-    header h1{
-      margin-left: 50px;
-    }
-  
-    hr{
-      display: none
-    }
-  
-    header li:hover{
-      padding: 8px;
-      transition: 0.3s all;
-      border: 1px solid black;
-      border-radius: 1cm;
-      color: white;
-      background-color: blueviolet;
-      text-align: center  ;
-    }
-  
-    .capa img{
-      width: 100%;
-      border: solid 1px black;
-  
-    }
-  
-    .capa{
-      background-color: black;
-      text-align: center;
-    }
-  
-  
-    .tuor1 h1{
-      width: 100%;
-      margin-top: 20px;
-      font-size: 32px;
-      border-top: 1px solid black;
-      border-bottom: 1px solid black;
-      text-align: center;
+  .play p{
+    padding: 30px;
+    border: 3px solid blueviolet;
+    border-radius: 1cm;
+    margin: 20px 0;
+    font-size: 18px;
+  }
+
+    .play p:hover{
+      padding: 32px;
     }
 
-    main{
-      border-bottom: 1px solid black;
+    .tuor1, .tuor2, .tuor3, .tuor4, .tuor5, .tuor6, .tuor7, .tuor8, .tuor9{
+      width: 80%;
+      margin: auto;
     }
-  
-    main p{
-      width: 100%;
-      border: 1px solid white;
-      border-radius: 0.1cm;
-      border-top: none;
-      text-align: center;
-      margin: auto;      
-    }
-    
-  
-  .informações, .informações2, .informações3, .informações4, .informações5, .informações6,.informações7,.informações8,.informações9{
+
+   .tuor1 h1, .tuor2 h1, .tuor3 h1, .tuor4 h1, .tuor5 h1, .tuor6 h1, .tuor7 h1, .tuor8 h1, .tuor9 h1{
     width: 100%;
-    margin:  50px auto;
-    padding: 10px;
-    padding-top:1px;
-    border: 1px solid white;
-    height: 80px;
+    font-size: 22px;
+   }
+
+   .tuor1 ul, .tuor2 ul, .tuor3 ul, .tuor4 ul, .tuor5 ul, .tuor6 ul, .tuor7 ul, .tuor8 ul, .tuor9 ul{
+    font-size: 18px;
+    padding-top: 10px;
+   }
+
+
+
+
+
+   .informações{
+    border: solid 2px rgb(132, 74, 201);
+    border-radius: 10px;
+    margin-top: 20px;
+    height: 85px;
+    padding-top: 8px;
   }
 
-  main li{
-    text-align: left;
+  .tuor1 p, .tuor2 p, .tuor3 p, .tuor4 p, .tuor5 p, .tuor6 p, .tuor7 p, .tuor8 p, .tuor9 p{
+    font-size: 12px;
+    margin-top: 10px;
+    border-top: 2px solid rgb(132, 74, 201);
   }
-    
-  .tuor1 ul, .tuor2 ul, .tuor3 ul, .tuor4 ul, .tuor5 ul, .tuor6 ul, .tuor7 ul, .tuor8 ul, .tuor9 ul{
-    font-size: 16px;
-  }
-
   
-  .tuor1 p, .tuor2 p, .tuor3 p, .tuor4 p, .tuor5 p, .tuor6 p, .tuor7 p, .tuor8 p,.tuor9 p{
-    text-align: center;
-    margin-top: 22px;
-    
-  }
-
-  
- .loja img{
-    width: 90%;
- }
-
- .loja{
-    font-size: 32px;
-    margin-top: 150px;
- }
-
- .loja h3{
-    text-align: center;
-    margin: auto;
-    width: 468px;
-    font-style:oblique ;
- }
-
- .loja h3:hover{
-    color: rgb(106, 34, 173);
- }
+.loja{
+  text-align: center;
+  margin-top: 80px;
+  font-size: 22px;
+}
 
 .loja h4{
-    margin-left: 300px;
-    font-size: 16px;
-    width: 300px;
-}
-
- main .city{
-  margin-left: 0;
-  padding-left: 100px;
-  margin-top: 30px;
-  width: 250px; 
-  text-align: left;
-}
-
-.tuor7 .city{
-  margin-top: 15px;
-}
-
-main .estado{
-  width: 30px;
-  text-align: center;
-  margin-top: 30px;
-  margin-left: 0;
-}
-
-main .data{
-  width: 80px;
-  text-align: center;
-  margin-top: 30px;
-  margin-left: 0;
-}
-
-main .ticket{
-  width: 200px;
-  text-align: center;
-  margin-top: 15px;
-  margin-left: 0;
-  height: 40px;
-  margin-right: 40px;
-  padding: 10px;
-}
-
-footer{
-  width: 100%;
-}
-
-footer h5{
-  font-size: 14px;
-  margin-top: 30px;
-}
-
-footer ul{
-  width: 100%;
-  margin-top: 40px;
-  font-size: 15px;
-}
-
-footer a{
-  margin: 10px;
-}
-
-#linkdaloja{
-  display: inline;
-}
-
-#sociais{
-  display: initial;
-}
-
-.play{
-  display: flex;
-  justify-content: space-evenly;
+  font-family: sans-serif;
+  margin-left: 0%;
+  font-size: 22px;
+  width: 30%;
+  margin-left: 65%;
 }
 
 }
@@ -204,4 +86,17 @@ footer a{
 
 
 
-  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
